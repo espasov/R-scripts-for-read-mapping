@@ -1,4 +1,6 @@
-# script to normalize count data from FeatureCounts and then plot a heatmap
+# R script to normalize count data from FeatureCounts and then plot a heatmap, and a barplot of total mapped reads
+#Written by Emilie Spasov, Neufeld Lab, University of Waterloo, June 2018
+
 library(dplyr)
 setwd("C:/Users/")
 
