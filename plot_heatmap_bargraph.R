@@ -83,6 +83,9 @@ norm_counts2
 
 
 ## heatmap part
+library(gplots)
+counts_matrix <- data.matrix(norm_counts2) #change data into matrix instead of a data frame
+
 #source("http://bioconductor.org/biocLite.R")
 #biocLite("ComplexHeatmap")
 library(ComplexHeatmap)
